@@ -1,0 +1,7 @@
+version: 1
+kind: notebook
+backend: lab
+build:
+  image: jupyter/datascience-notebook
+  build_steps:
+    - pip3 install jupyterlab==0.33.12
